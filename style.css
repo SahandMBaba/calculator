@@ -1,0 +1,63 @@
+body {
+    background-color: #111f;
+}
+.bodyChild {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calBody {
+    height: 448px;
+    background-color: rgb(255, 255, 255);
+    width: 360px;
+    border: white 1vh solid;
+    
+
+
+
+}
+.screen {
+    height: 70px;
+    background-color: aqua;
+    margin-bottom: 20px;
+    display: flex;
+    overflow:hidden;
+}
+.button {
+    width: 87.5px;
+    height: 87.5px;
+    background-color: blueviolet;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonHolder {
+    display: flex;
+    flex-wrap: wrap;
+}
+.btnText {
+    font-size: 50px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    width: 87.5px;
+    height: 87.5px;
+    background-color: blueviolet;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btnText:hover {
+    background-color: rgb(172, 104, 235);
+    color: white;
+}
+.display {
+    flex: 1;
+    background-color: aqua;
+    font-size: 75px;
+    
+}
